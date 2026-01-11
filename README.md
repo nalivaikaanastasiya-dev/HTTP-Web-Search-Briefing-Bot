@@ -7,13 +7,13 @@ export TAVILY_API_KEY=YOUR_KEY
 ollama run llama3
 
 
-Run server
+# Run server
 
 
 ```
 uvicorn server:app --reload
 
-Run client
+# Run client
 
 ```
 python client.py "Your topic here"
