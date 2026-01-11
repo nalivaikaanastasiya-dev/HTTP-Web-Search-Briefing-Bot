@@ -6,12 +6,15 @@ export MCP_HTTP_TOKEN=devtoken123
 export TAVILY_API_KEY=YOUR_KEY
 ollama run llama3
 
+
 Run server
+
 
 ```
 uvicorn server:app --reload
 
 Run client
+
 ```
 python client.py "Your topic here"
 
@@ -19,9 +22,11 @@ python client.py "Your topic here"
 
 # 4️⃣ `curl_examples.md`
 
+
 ```
 ## List tools
 curl -H "Authorization: Bearer devtoken123" http://127.0.0.1:8000/tools
+
 
 ```
 ## Search
